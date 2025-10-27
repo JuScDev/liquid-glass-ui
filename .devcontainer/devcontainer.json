@@ -1,0 +1,17 @@
+{
+  "name": "Angular Devcontainer",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-18",
+  "features": {},
+  "postCreateCommand": "npm install",
+  "forwardPorts": [4200],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}
