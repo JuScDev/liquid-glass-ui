@@ -1,21 +1,18 @@
 <app-liquid-card icon="🎵" title="Today's Hits" subtitle="Apple Music Hits">
-  <div class="music-widget glass">
-    <div class="album-cover">♪</div>
-    <div style="flex: 1">
-      <div style="color: white; font-weight: 500">Current Song</div>
-      <div style="color: rgba(255, 255, 255, 0.7); font-size: 14px">Artist Name</div>
-    </div>
-    <button class="play-btn">▶</button>
-  </div>
+  <app-liquid-music-widget />
 </app-liquid-card>
 
 <app-liquid-card icon="📝" title="ToDo's " subtitle="3 items">
-  <div style="margin-bottom: 10px">○ Pick up contacts</div>
-  <div style="margin-bottom: 10px">○ Order plant food</div>
-  <div>○ Water Monstera</div>
+  <div class="bullet">○ Pick up contacts</div>
+  <div class="bullet">○ Order plant food</div>
+  <div class="bullet">○ Water Monstera</div>
 </app-liquid-card>
 
 <app-liquid-card icon="✨" title="Glassmorphism" subtitle="Modern Design">
   <p>The glass effect relies on transparency, background blur and thin edges to create depth.</p>
   <app-liquid-button text="Discover more" />
 </app-liquid-card>
+
+<app-liquid-button text="Discover more" />
+
+<app-liquid-music-widget />

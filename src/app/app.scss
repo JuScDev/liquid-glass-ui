@@ -4,56 +4,12 @@
   gap: 1.25rem;
   max-width: 62.5rem;
   width: 100%;
-}
 
-.music-widget {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 0.9375rem;
-  padding: 0.9375rem;
-  border-radius: 0.9375rem;
-  margin-top: 0.9375rem;
-
-  &::after {
-    border-radius: 0.9375rem;
+  .bullet:not(:last-of-type) {
+    margin-bottom: 10px;
   }
-}
 
-.album-cover {
-  width: 3.125rem;
-  height: 3.125rem;
-  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
-  border-radius: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-weight: bold;
-}
-
-.play-btn {
-  width: 2.5rem;
-  height: 2.5rem;
-  background: rgba(255, 255, 255, 0.3);
-  border: none;
-  border-radius: 50%;
-  color: white;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-
-  &:hover {
-    background: rgba(255, 255, 255, 0.5);
-    transform: scale(1.1);
-  }
-}
-
-/* Responsive */
-@media (max-width: 550) {
-  .container {
+  @media (max-width: 550) {
     grid-template-columns: 1fr;
   }
 }
